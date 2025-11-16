@@ -6,8 +6,8 @@
 void delay(int);
 void lcd_data(unsigned char);
 void lcd_cmd(unsigned char);
-void lcd_init(void);
-void lcd_string(unsigned char *);
+void lcd_init(void);// for test
+void lcd_string(unsigned char *);// for test 
 void ADC_init(void);
 unsigned int ADC_read(void);
 void main()
@@ -128,6 +128,7 @@ lcd_data(*p++);
 
 
 }
+
 
 
 
