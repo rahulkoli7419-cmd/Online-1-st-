@@ -14,7 +14,7 @@ void main()
 {
 int i;
 unsigned int val;
-unsigned char a[8]="fan off";
+unsigned char a[8]="power off";
 unsigned char b[8]="fan on"; 
 float temp;
 
